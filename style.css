@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Merriweather', serif;
+    background-color: whitesmoke;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+    
+    
+}
+.nav_brand{
+    width: 100px;
+}
+.navbar__logo{
+    width: 100%;
+    
+}
+.nav__item{
+background-image: linear-gradient(to right,
+rgb(238, 49, 7) 0%,rgb(220, 26, 171) 51%,rgb(246, 51, 16)100%
+);
+color: #fff;
+border: none;
+padding: 12px;
+border-radius: 6px;
+font-weight: 600;
+
+}
+
+.nav__item:hover{
+    border:2px solid #FF6969;
+ cursor: pointer;
+}
+
+
+@media (min-width: 768px){
+    .navbar{
+        justify-content: space-between;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 10PX;
+        font-weight: 100;
+    }
+}
+
+@media (min-width:1024px){
+ .nav__brand {
+    width: 200px;
+ }
+
+
+}
